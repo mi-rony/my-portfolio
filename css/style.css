@@ -5,8 +5,11 @@
   font-family: sans-serif;
 }
 header{
-  background-color: #fff2e8;
+  background-color: #fff8f3;
   padding-top: 50px;
+  background: url("/hero-dev-portfolio-resources/images/developer.png"), url("/hero-dev-portfolio-resources/images/header_bg.png"), #fff8f3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
 }
 .logo {
   font-size: 1.5em;
@@ -31,18 +34,47 @@ nav .menu a{
   text-decoration: none;
   color: black;
 }
-nav li a:hover{
-  background-color: #ff730021;
-  padding: 10px;
-  
-}
-nav button {
+button {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 3px;
   border: none;
   background-color: #ff892f;
   color: white;
-
+  cursor: pointer;
+}
+#banner{
+  /*border: 1px solid black;*/
+  margin: 20px 20px 0 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content h2{
+  font-size: 35px;
+  color: #636363;
+  margin-bottom: 17px;
+}
+#banner .banner-content h1{
+  font-size: 60px;
+  margin-bottom: 17px;
+}
+#banner .banner-content p{
+  margin-bottom: 27px;
+  font-size: 20px;
+  color: #717171;
+}
+.contact-btn{
+  color: #ff892f;
+  background: none;
+  border: 2px solid #ff892f;
+}
+.banner-btn{
+  display: flex;
+  gap: 25px;
+}
+#banner .banner-image img{
+  width: 600px;
+  vertical-align: middle;
 }
