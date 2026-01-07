@@ -78,3 +78,33 @@ button {
   width: 600px;
   vertical-align: middle;
 }
+#about{
+  margin: 100px auto 0 auto;
+  padding: 100px;
+  border-radius: 8px;
+  width: 70%;
+  background-color: #fff8f3;
+}
+#about .about-container{
+  text-align: center;
+}
+#about .about-info{
+  display: flex;
+  gap: 15%;
+  justify-content: center;
+}
+.section-heading h2{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.section-heading p{
+  margin-bottom: 30px;
+  color: #636363;
+}
+#about .info-card p{
+  color: #797979;
+}
+#about .info-card h4{
+  font-size: 18px;
+  color: #343434;
+}
