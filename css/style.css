@@ -151,3 +151,36 @@ button {
   font-size: 18px;
   line-height: 25px;
 }
+#resume{
+padding-top: 100px;
+}
+.resume-container{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.resume-card{
+  padding: 0 100px;
+}
+.resume-card h3 {
+    color: #383838;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.resume-card p{
+  padding-bottom: 10px;
+  color: #585858;
+}
+hr{
+  margin-top: 20px;
+}
+.atg{
+  margin: 0 auto;
+  width: 70%;
+  color: #383838;
+  font-size: 30px;
+}
+.btg{
+  text-align: center;
+}
