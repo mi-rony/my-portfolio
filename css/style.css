@@ -184,3 +184,43 @@ hr{
 .btg{
   text-align: center;
 }
+.dwnld-cv-btn{
+  margin: auto;
+  display: flex;
+  margin: 50px auto;
+}
+footer{
+  background-color: #fff8f3;
+  padding: 100px 0 50px;
+}
+.footer-container{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  gap: 120px;
+}
+.connect{
+  max-width: 600px;
+}
+.connect h2,p{
+  padding-bottom: 15px;
+}
+.form h2{
+  padding-bottom: 15px;
+}
+.input{
+  
+  border-radius: 5px;
+  width: 450px;
+  height: 40px;
+  margin: 5px 0;
+  border: none;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.input::placeholder{
+  opacity: 0.6;
+}
+.form button {
+  margin-top: 20px;
+}
